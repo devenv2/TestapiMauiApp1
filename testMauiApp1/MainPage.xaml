@@ -9,7 +9,8 @@
             Padding="30,0"
             VerticalOptions="Center">
             <Label Text="Number of repetitions"/>
-            <Entry Placeholder="Repetition" x:Name="repetition"/>
+              <Entry Placeholder="Repetition" Text="100" x:Name="repetition"/>
+
 
             <Label x:Name="l1"/>
  
