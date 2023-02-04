@@ -23,7 +23,7 @@ public partial class MainPage : ContentPage
                 int num2 = GetRandomNumber();
                 using (var client = new HttpClient())
                 {
-                    var response = await client.GetAsync($"https://api.e-innovation.net/?number1={num1}&number2={num2}&api_key=secret_key");
+                    var response = await client.GetAsync($"https://api.mysite.comn/?number1={num1}&number2={num2}&api_key=secret_key");
 
                     if (!response.IsSuccessStatusCode)
                     {
